@@ -172,7 +172,7 @@ if($submit_form)
 				$_SESSION['is_admin'] = $row->permissions == 'admin'? 1:0;
 				
 				
-			\Stripe\Stripe::setApiKey('sk_test_9TzWZWto24zBpqUnhSki3Vjc');	
+			\Stripe\Stripe::setApiKey('Pass secret key here');	
 			
 			try{		
 			

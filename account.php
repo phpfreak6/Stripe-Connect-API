@@ -92,7 +92,7 @@ $noti_text = array(
 			);
 
 
-\Stripe\Stripe::setApiKey('sk_test_9TzWZWto24zBpqUnhSki3Vjc');
+\Stripe\Stripe::setApiKey('Pass Secret key here');
 
 $sdate = new DateTime();
 $stimestamp =  $sdate->getTimestamp();
