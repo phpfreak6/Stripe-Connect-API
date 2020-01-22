@@ -116,7 +116,7 @@ $month    =  $dob[1];
 $year     =  $dob[2];
 
 
-// $account = \Stripe\Account::retrieve("acct_18zR6eK8yl0rIlic");
+// $account = \Stripe\Account::retrieve("");
 
 // echo "<pre>";
 
