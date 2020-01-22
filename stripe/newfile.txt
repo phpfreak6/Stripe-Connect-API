@@ -1,0 +1,211 @@
+Stripe\Event JSON: {
+    "id": "evt_18pESRBMgRxhae6p8wP71b1m",
+    "object": "event",
+    "api_version": "2016-07-06",
+    "created": 1472810375,
+    "data": {
+        "object": {
+            "id": "acct_18oYB4BMgRxhae6p",
+            "object": "account",
+            "business_logo": null,
+            "business_name": "rrrrrrrrrrrr",
+            "business_url": null,
+            "charges_enabled": true,
+            "country": "GB",
+            "default_currency": "gbp",
+            "details_submitted": true,
+            "display_name": null,
+            "email": null,
+            "managed": true,
+            "statement_descriptor": null,
+            "support_email": null,
+            "support_phone": null,
+            "timezone": "Etc\/UTC",
+            "transfers_enabled": true,
+            "debit_negative_balances": false,
+            "decline_charge_on": {
+                "avs_failure": false,
+                "cvc_failure": false
+            },
+            "external_accounts": {
+                "object": "list",
+                "data": [
+                    {
+                        "id": "ba_18oYB5BMgRxhae6pSlTVWxaq",
+                        "object": "bank_account",
+                        "account": "acct_18oYB4BMgRxhae6p",
+                        "account_holder_name": null,
+                        "account_holder_type": null,
+                        "bank_name": "STRIPE TEST BANK",
+                        "country": "GB",
+                        "currency": "gbp",
+                        "default_for_currency": true,
+                        "fingerprint": "2iYg0oMEsTbKb9td",
+                        "last4": "2345",
+                        "metadata": [],
+                        "routing_number": "10-88-00",
+                        "status": "new"
+                    }
+                ],
+                "has_more": false,
+                "total_count": 1,
+                "url": "\/v1\/accounts\/acct_18oYB4BMgRxhae6p\/external_accounts"
+            },
+            "legal_entity": {
+                "additional_owners": [
+                    {
+                        "address": {
+                            "city": "gdf",
+                            "country": "GB",
+                            "line1": "rte",
+                            "line2": "tertertre",
+                            "postal_code": "gdf",
+                            "state": null
+                        },
+                        "dob": {
+                            "day": 4,
+                            "month": 3,
+                            "year": 2013
+                        },
+                        "first_name": "test",
+                        "last_name": "tes",
+                        "verification": {
+                            "details": null,
+                            "details_code": null,
+                            "document": "file_18oYBEBMgRxhae6pz9uphYUv",
+                            "status": "verified"
+                        }
+                    },
+                    {
+                        "address": {
+                            "city": "345",
+                            "country": "GB",
+                            "line1": "43",
+                            "line2": "tertre",
+                            "postal_code": "rete",
+                            "state": null
+                        },
+                        "dob": {
+                            "day": 4,
+                            "month": 3,
+                            "year": 2013
+                        },
+                        "first_name": "testttt",
+                        "last_name": "testtt",
+                        "verification": {
+                            "details": null,
+                            "details_code": null,
+                            "document": "file_18oYBKBMgRxhae6pfiPKI0kE",
+                            "status": "verified"
+                        }
+                    },
+                    {
+                        "address": {
+                            "city": "324",
+                            "country": "GB",
+                            "line1": "322432",
+                            "line2": "tretre",
+                            "postal_code": "32432",
+                            "state": null
+                        },
+                        "dob": {
+                            "day": 13,
+                            "month": 3,
+                            "year": 2004
+                        },
+                        "first_name": "tttt",
+                        "last_name": "tttt",
+                        "verification": {
+                            "details": null,
+                            "details_code": null,
+                            "document": "file_18oYBMBMgRxhae6peTJPu81X",
+                            "status": "verified"
+                        }
+                    },
+                    {
+                        "address": {
+                            "city": "53",
+                            "country": "GB",
+                            "line1": "53",
+                            "line2": "rwerwerere",
+                            "postal_code": "43534",
+                            "state": null
+                        },
+                        "dob": {
+                            "day": 5,
+                            "month": 6,
+                            "year": 2011
+                        },
+                        "first_name": "rwer",
+                        "last_name": "fdsfds",
+                        "verification": {
+                            "details": null,
+                            "details_code": null,
+                            "document": "file_18oYBOBMgRxhae6pILJW3cbr",
+                            "status": "verified"
+                        }
+                    }
+                ],
+                "address": {
+                    "city": "r",
+                    "country": "GB",
+                    "line1": "3180 18th St",
+                    "line2": null,
+                    "postal_code": "EC1A 1BB",
+                    "state": null
+                },
+                "business_name": "rrrrrrrrrrrr",
+                "business_tax_id_provided": true,
+                "dob": {
+                    "day": 4,
+                    "month": 3,
+                    "year": 2015
+                },
+                "first_name": "Test",
+                "last_name": "Singh",
+                "personal_address": {
+                    "city": "San Francisco",
+                    "country": "GB",
+                    "line1": "3180 18th St",
+                    "line2": null,
+                    "postal_code": "94110",
+                    "state": null
+                },
+                "type": "corporation",
+                "verification": {
+                    "details": null,
+                    "details_code": null,
+                    "document": "file_18pESQBMgRxhae6pnCA0aPXc",
+                    "status": "verified"
+                }
+            },
+            "metadata": [],
+            "product_description": null,
+            "tos_acceptance": {
+                "date": 1472647850,
+                "ip": "112.196.2.58",
+                "user_agent": null
+            },
+            "transfer_schedule": {
+                "delay_days": 7,
+                "interval": "daily"
+            },
+            "verification": {
+                "disabled_reason": null,
+                "due_by": null,
+                "fields_needed": []
+            }
+        },
+        "previous_attributes": {
+            "legal_entity": {
+                "verification": {
+                    "document": "file_18pENsBMgRxhae6p9IR2BQ95"
+                }
+            }
+        }
+    },
+    "livemode": false,
+    "pending_webhooks": 0,
+    "request": "req_97TP8fDQr3XrRu",
+    "type": "account.updated"
+}
